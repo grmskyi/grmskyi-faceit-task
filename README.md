@@ -93,7 +93,7 @@ scheduled tasks to periodically update the job data.
 
 ![Alt text](/screenshots_for_github/get_locations.png?raw=true "Result data from Postman")
 
-## Endpoints
+## Scheduled Tasks
 The application uses Quartz to schedule the task of fetching job data from the Arbeitnow API every 20 minutes. This can be configured in the `QuartzConfig` class.
 In the following docker logs, you can see that Quartz job successfully pulled data from the API and loaded it into the database:
 ```terminal
