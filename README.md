@@ -77,21 +77,21 @@ scheduled tasks to periodically update the job data.
 - Query Params: page, size, sort
 - Response: 200 OK
 
-![Alt text](/screenshots_for_github/get_all_jobs.PNG?raw=true "Result data from Postman")
+![Alt text](/screenshots_for_github/get_all_jobs.png?raw=true "Result data from Postman")
 
 ### Get Top 10 Popular Jobs
 - URL: /api/v1/top10
 - Method: GET
 - Response: 200 OK
 
-![Alt text](/screenshots_for_github/get_top_10_jobs.PNG?raw=true "Result data from Postman")
+![Alt text](/screenshots_for_github/get_top_10_jobs.png?raw=true "Result data from Postman")
 
 ### Get Job Statistics by Location
 - URL: /api/v1/location-stats
 - Method: GET
 - Response: 200 OK
 
-![Alt text](/screenshots_for_github/get_locations.PNG?raw=true "Result data from Postman")
+![Alt text](/screenshots_for_github/get_locations.png?raw=true "Result data from Postman")
 
 ## Endpoints
 The application uses Quartz to schedule the task of fetching job data from the Arbeitnow API every 20 minutes. This can be configured in the `QuartzConfig` class.
@@ -140,7 +140,7 @@ The result of all tests:
 
 ## Data from database
 Below is a successful data storage after Job execution:
-![Alt text](/screenshots_for_github/data_from_h2.PNG?raw=true "data from h2")
+![Alt text](/screenshots_for_github/data_from_h2.png?raw=true "data from h2")
 
 
 ## License
